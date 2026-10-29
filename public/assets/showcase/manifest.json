@@ -1,0 +1,435 @@
+{
+  "acquired": "2026-10-18T07:57:42.717Z",
+  "attribution": "Powered by Poly Haven. Glam Velvet Sofa © 2021 Wayfair, LLC, by Eric Chadwick (CC BY 4.0).",
+  "assets": [
+    {
+      "id": "modern_arm_chair_01",
+      "name": "Modern Arm Chair 01",
+      "authors": {
+        "Vibrant Nordic": "All"
+      },
+      "source": "https://polyhaven.com/a/modern_arm_chair_01",
+      "license": "CC0-1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "dimensions": [
+        820.3444182872772,
+        986.5616858005524,
+        1022.8520567470696
+      ],
+      "files": [
+        {
+          "path": "modern_arm_chair_01/model.gltf",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/modern_arm_chair_01/modern_arm_chair_01_1k.gltf",
+          "bytes": 5121,
+          "sha256": "d31be520add2603447b43acedbdacf9516866f7c89e9ea9230c9edbac9cc6e6a"
+        },
+        {
+          "path": "modern_arm_chair_01/textures/modern_arm_chair_01_pillow_nor_gl_1k.jpg",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/modern_arm_chair_01/modern_arm_chair_01_pillow_nor_gl_1k.jpg",
+          "bytes": 302377,
+          "sha256": "2717b9d22e1d3533e3c7436a0230b00b1d25bf396246679825c8db08edaba0a8"
+        },
+        {
+          "path": "modern_arm_chair_01/textures/modern_arm_chair_01_legs_nor_gl_1k.jpg",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/modern_arm_chair_01/modern_arm_chair_01_legs_nor_gl_1k.jpg",
+          "bytes": 560864,
+          "sha256": "af328e8530884907cf0d38a675338bb4e2b03c56ed2d21eb5abf505bb67c11de"
+        },
+        {
+          "path": "modern_arm_chair_01/textures/modern_arm_chair_01_pillow_arm_1k.jpg",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/modern_arm_chair_01/modern_arm_chair_01_pillow_arm_1k.jpg",
+          "bytes": 321223,
+          "sha256": "fec333290ddfd70e78428251874d30d5410d6d0a956dd84922b0d3f3596e4b7a"
+        },
+        {
+          "path": "modern_arm_chair_01/textures/modern_arm_chair_01_legs_diff_1k.jpg",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/modern_arm_chair_01/modern_arm_chair_01_legs_diff_1k.jpg",
+          "bytes": 460937,
+          "sha256": "6291421a8db6cd9bbbc8c141aa087465d698427249f813d24c6e5ccdbf0bf536"
+        },
+        {
+          "path": "modern_arm_chair_01/textures/modern_arm_chair_01_legs_arm_1k.jpg",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/modern_arm_chair_01/modern_arm_chair_01_legs_arm_1k.jpg",
+          "bytes": 577931,
+          "sha256": "c76b65200a52cf649a865baf7f879dc34277b923edaac7ec8164eaf7c51c935d"
+        },
+        {
+          "path": "modern_arm_chair_01/modern_arm_chair_01.bin",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/8k/modern_arm_chair_01/modern_arm_chair_01.bin",
+          "bytes": 240728,
+          "sha256": "8755f2f498c0bb165660379d1b045465751c16bbeaf553c8dd76bb14c16d1ff6"
+        },
+        {
+          "path": "modern_arm_chair_01/textures/modern_arm_chair_01_pillow_diff_1k.jpg",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/modern_arm_chair_01/modern_arm_chair_01_pillow_diff_1k.jpg",
+          "bytes": 228851,
+          "sha256": "f1935436b460ad5c03ac7ff9d1e1b4aaedcdc9a503d79c257beb8cdac2e9e1f7"
+        }
+      ]
+    },
+    {
+      "id": "modern_coffee_table_01",
+      "name": "Modern Coffee Table 01",
+      "authors": {
+        "Amin": "All"
+      },
+      "source": "https://polyhaven.com/a/modern_coffee_table_01",
+      "license": "CC0-1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "dimensions": [
+        1201.8300294876099,
+        600.0000834465027,
+        389.99998569488525
+      ],
+      "files": [
+        {
+          "path": "modern_coffee_table_01/model.gltf",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/modern_coffee_table_01/modern_coffee_table_01_1k.gltf",
+          "bytes": 2771,
+          "sha256": "a35d811da4c174d0c888f23353dda21501763dbf5505c66f57fef4b3f613e50c"
+        },
+        {
+          "path": "modern_coffee_table_01/modern_coffee_table_01.bin",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/8k/modern_coffee_table_01/modern_coffee_table_01.bin",
+          "bytes": 154864,
+          "sha256": "b8fe0d49041b879a5d5962685a39e3daf009679f7b6a88ced1347e6dc6c0851e"
+        },
+        {
+          "path": "modern_coffee_table_01/textures/modern_coffee_table_01_rough_1k.jpg",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/modern_coffee_table_01/modern_coffee_table_01_rough_1k.jpg",
+          "bytes": 403959,
+          "sha256": "8013b48b0ebb845907f840afcae9cbc915a5205ac82ed99cbba31771febacb0f"
+        },
+        {
+          "path": "modern_coffee_table_01/textures/modern_coffee_table_01_diff_1k.jpg",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/modern_coffee_table_01/modern_coffee_table_01_diff_1k.jpg",
+          "bytes": 410569,
+          "sha256": "069b89dd3ef03ddcbb7b2e6a124b1903aa7848394509121aa19f87bd0ef0218c"
+        },
+        {
+          "path": "modern_coffee_table_01/textures/modern_coffee_table_01_nor_gl_1k.jpg",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/modern_coffee_table_01/modern_coffee_table_01_nor_gl_1k.jpg",
+          "bytes": 359134,
+          "sha256": "43e0d317d0f8418b130c0058c645225ee83b808b1dc0e5e7236bead3bdd77139"
+        }
+      ]
+    },
+    {
+      "id": "potted_plant_02",
+      "name": "Potted Plant 02",
+      "authors": {
+        "Rico Cilliers": "All"
+      },
+      "source": "https://polyhaven.com/a/potted_plant_02",
+      "license": "CC0-1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "dimensions": [
+        701.1570334434509,
+        657.3865860700607,
+        841.1787391305552
+      ],
+      "files": [
+        {
+          "path": "potted_plant_02/model.gltf",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/potted_plant_02/potted_plant_02_1k.gltf",
+          "bytes": 6653,
+          "sha256": "c533dcce0d1aa4379eb7db04601a04983f8df2422b28578de922655a416e64a9"
+        },
+        {
+          "path": "potted_plant_02/textures/potted_plant_02_leaves_diff_1k.jpg",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/potted_plant_02/potted_plant_02_leaves_diff_1k.jpg",
+          "bytes": 167700,
+          "sha256": "3643dce6e6c0a9f40129bd837ec1a11802e8f43ea43cb29e58219d82e0ac632b"
+        },
+        {
+          "path": "potted_plant_02/potted_plant_02.bin",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/8k/potted_plant_02/potted_plant_02.bin",
+          "bytes": 1852244,
+          "sha256": "9c9812482c78a59789ed32fa842b4cbd9365e09c900c31ebb998e5efe627fe97"
+        },
+        {
+          "path": "potted_plant_02/textures/potted_plant_02_pot_rough_1k.jpg",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/potted_plant_02/potted_plant_02_pot_rough_1k.jpg",
+          "bytes": 114886,
+          "sha256": "4e92ad8ee0f098050785d9a025e2c5a7d55bc7a7f7e1916cc7627fc7824a938f"
+        },
+        {
+          "path": "potted_plant_02/textures/potted_plant_02_leaves_rough_1k.jpg",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/potted_plant_02/potted_plant_02_leaves_rough_1k.jpg",
+          "bytes": 102396,
+          "sha256": "ac8959f70c0e91e77f3cd6fd3f73578b8aed64ac6c33fc34ac027a4e88276960"
+        },
+        {
+          "path": "potted_plant_02/textures/potted_plant_02_pot_diff_1k.jpg",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/potted_plant_02/potted_plant_02_pot_diff_1k.jpg",
+          "bytes": 155244,
+          "sha256": "684949bf24821d7e951d46915366b5a388d2e4ccaaa9d5284e718c83604705e9"
+        },
+        {
+          "path": "potted_plant_02/textures/potted_plant_02_leaves_nor_gl_1k.jpg",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/potted_plant_02/potted_plant_02_leaves_nor_gl_1k.jpg",
+          "bytes": 127232,
+          "sha256": "e0fe090ff7a511729c9bbe59df7288b400430fdab178529443dec75e0f06007d"
+        },
+        {
+          "path": "potted_plant_02/textures/potted_plant_02_pot_nor_gl_1k.jpg",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/potted_plant_02/potted_plant_02_pot_nor_gl_1k.jpg",
+          "bytes": 108343,
+          "sha256": "981a68721c8b7b9ac26b96d0210334599d5e8f529362f505082c071a0a58e86c"
+        }
+      ]
+    },
+    {
+      "id": "modern_ceiling_lamp_01",
+      "name": "Modern Ceiling Lamp 01",
+      "authors": {
+        "James Ray Cock": "All"
+      },
+      "source": "https://polyhaven.com/a/modern_ceiling_lamp_01",
+      "license": "CC0-1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "dimensions": [
+        431.6493272781372,
+        431.6607564687729,
+        951.5514969825745
+      ],
+      "files": [
+        {
+          "path": "modern_ceiling_lamp_01/model.gltf",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/modern_ceiling_lamp_01/modern_ceiling_lamp_01_1k.gltf",
+          "bytes": 6177,
+          "sha256": "f88b5d0a81fa813457a77474e7e4e812f97ad5fac2109ba03ddb183274be3f8c"
+        },
+        {
+          "path": "modern_ceiling_lamp_01/textures/modern_ceiling_lamp_01_arm_1k.jpg",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/modern_ceiling_lamp_01/modern_ceiling_lamp_01_arm_1k.jpg",
+          "bytes": 124022,
+          "sha256": "f4c6a8e7c86b1deaaf0f74099539ff635063b63f594b0fadfc3ec8fac805df4e"
+        },
+        {
+          "path": "modern_ceiling_lamp_01/textures/modern_ceiling_lamp_01_diff_1k.jpg",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/modern_ceiling_lamp_01/modern_ceiling_lamp_01_diff_1k.jpg",
+          "bytes": 79705,
+          "sha256": "c08bfbf7576a86a4a09d386ae9f0a92965fc652bf82f3a8dba1c796b1aa9e535"
+        },
+        {
+          "path": "modern_ceiling_lamp_01/modern_ceiling_lamp_01.bin",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/8k/modern_ceiling_lamp_01/modern_ceiling_lamp_01.bin",
+          "bytes": 146828,
+          "sha256": "ae5140a64e12e639554158901a5e92340bb37c706096ff255804e3220fb96367"
+        },
+        {
+          "path": "modern_ceiling_lamp_01/textures/modern_ceiling_lamp_01_nor_gl_1k.jpg",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/modern_ceiling_lamp_01/modern_ceiling_lamp_01_nor_gl_1k.jpg",
+          "bytes": 79333,
+          "sha256": "dd75bd21a901581325f5c363bd89b45430b8531cb27dead314cd087196a33c27"
+        }
+      ]
+    },
+    {
+      "id": "ceramic_vase_01",
+      "name": "Ceramic Vase 01",
+      "authors": {
+        "James Ray Cock": "All"
+      },
+      "source": "https://polyhaven.com/a/ceramic_vase_01",
+      "license": "CC0-1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "dimensions": [
+        204.87193763256073,
+        206.37669414281845,
+        401.379804010503
+      ],
+      "files": [
+        {
+          "path": "ceramic_vase_01/model.gltf",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/ceramic_vase_01/ceramic_vase_01_1k.gltf",
+          "bytes": 2706,
+          "sha256": "4e2c69eb5bbccf86e9fbf92af438464669d804c1f0eae041ee28651a5b57d91e"
+        },
+        {
+          "path": "ceramic_vase_01/textures/ceramic_vase_01_nor_gl_1k.jpg",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/ceramic_vase_01/ceramic_vase_01_nor_gl_1k.jpg",
+          "bytes": 36504,
+          "sha256": "c35b59d15e0f08db44b0bc8a5870bc65ae781819e5abf0447996d0faf05b7722"
+        },
+        {
+          "path": "ceramic_vase_01/textures/ceramic_vase_01_diff_1k.jpg",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/ceramic_vase_01/ceramic_vase_01_diff_1k.jpg",
+          "bytes": 32351,
+          "sha256": "5f7d22178b74a59fe92aa0ccc958b897e2fb80df514eb28b97000097c0e71beb"
+        },
+        {
+          "path": "ceramic_vase_01/textures/ceramic_vase_01_arm_1k.jpg",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/ceramic_vase_01/ceramic_vase_01_arm_1k.jpg",
+          "bytes": 74240,
+          "sha256": "121469880a7900513717685e9035dfc1b04613f85c778ab4e9dba98c1675d660"
+        },
+        {
+          "path": "ceramic_vase_01/ceramic_vase_01.bin",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/8k/ceramic_vase_01/ceramic_vase_01.bin",
+          "bytes": 272656,
+          "sha256": "56ffadcafff3f56538d04b0b43c06c9704baeec2ac3ec286ef01c313c82906f0"
+        }
+      ]
+    },
+    {
+      "id": "wood_floor",
+      "name": "Wood Floor",
+      "authors": {
+        "Dimitrios Savva": "All"
+      },
+      "source": "https://polyhaven.com/a/wood_floor",
+      "license": "CC0-1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "dimensions": [
+        1699.9996900558472,
+        1699.9996900558472
+      ],
+      "files": [
+        {
+          "path": "wood_floor/color.jpg",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/wood_floor/wood_floor_diff_2k.jpg",
+          "bytes": 2983667,
+          "sha256": "7c3ff1164c8dd0758ef2c048e9a266d28174120de01052ec40e6ca486177345c"
+        },
+        {
+          "path": "wood_floor/normal.jpg",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/wood_floor/wood_floor_nor_gl_2k.jpg",
+          "bytes": 1863576,
+          "sha256": "eff2e4db46bab930dc05997faf5085157eec4fd652cdfc6cd01fa11edd56ef10"
+        },
+        {
+          "path": "wood_floor/roughness.jpg",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/wood_floor/wood_floor_rough_2k.jpg",
+          "bytes": 2267559,
+          "sha256": "297eda0d75f2020cc541dbf242e1f5fd058053249567f49a4506fc2c5b1a172b"
+        },
+        {
+          "path": "wood_floor/ao.jpg",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/wood_floor/wood_floor_ao_2k.jpg",
+          "bytes": 2826020,
+          "sha256": "9f9aa2da94211afcd08c56d6d74d9bb80b7792666b000297e3b3470739dd18e5"
+        }
+      ]
+    },
+    {
+      "id": "white_plaster_02",
+      "name": "White Plaster 02",
+      "authors": {
+        "Rob Tuytel": "All"
+      },
+      "source": "https://polyhaven.com/a/white_plaster_02",
+      "license": "CC0-1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "dimensions": [
+        1000,
+        1000
+      ],
+      "files": [
+        {
+          "path": "white_plaster_02/color.jpg",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/white_plaster_02/white_plaster_02_diff_1k.jpg",
+          "bytes": 527219,
+          "sha256": "a1ebbe091bd1ae93d2abd5de8d69f9003a8d0ee6532bcf9a87c2492c97051f23"
+        },
+        {
+          "path": "white_plaster_02/normal.jpg",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/white_plaster_02/white_plaster_02_nor_gl_1k.jpg",
+          "bytes": 652310,
+          "sha256": "eb572ca3630d5bfde72e2601b1f02412da23ca005cd19384dced8690be4cb783"
+        },
+        {
+          "path": "white_plaster_02/roughness.jpg",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/white_plaster_02/white_plaster_02_rough_1k.jpg",
+          "bytes": 295900,
+          "sha256": "4ff1fe957cd161b07f721fe6c28a9459c8c2e8ec65627a26c16e483a07c80d85"
+        },
+        {
+          "path": "white_plaster_02/ao.jpg",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/white_plaster_02/white_plaster_02_ao_1k.jpg",
+          "bytes": 528899,
+          "sha256": "01a479ced98447569958ccb6d396ed700dc9f8fd3197c86e52836382b24126c6"
+        }
+      ]
+    },
+    {
+      "id": "fabric_pattern_07",
+      "name": "Fabric Pattern 07",
+      "authors": {
+        "Rob Tuytel": "All"
+      },
+      "source": "https://polyhaven.com/a/fabric_pattern_07",
+      "license": "CC0-1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "dimensions": [
+        400.0000059604645,
+        400.00003576278687
+      ],
+      "files": [
+        {
+          "path": "fabric_pattern_07/normal.jpg",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/fabric_pattern_07/fabric_pattern_07_nor_gl_1k.jpg",
+          "bytes": 828071,
+          "sha256": "f6955bbdead9f023f2357f6f8808ed49627d10882cd2a3cb6b5a5ace155abc45"
+        },
+        {
+          "path": "fabric_pattern_07/roughness.jpg",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/fabric_pattern_07/fabric_pattern_07_rough_1k.jpg",
+          "bytes": 488744,
+          "sha256": "3d90ac40b5c32a15649cc8525b7eeed133ea46b63a0e3eae5e34911d5c967e3a"
+        },
+        {
+          "path": "fabric_pattern_07/ao.jpg",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/fabric_pattern_07/fabric_pattern_07_ao_1k.jpg",
+          "bytes": 416307,
+          "sha256": "79f8a7ea29a3bba8215e06ad2bf4bdce15fa96bbc9052e1a947397940a168c9b"
+        }
+      ]
+    },
+    {
+      "id": "artist_workshop",
+      "name": "Artist Workshop",
+      "authors": {
+        "Oliksiy Yakovlyev": "All"
+      },
+      "source": "https://polyhaven.com/a/artist_workshop",
+      "license": "CC0-1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "files": [
+        {
+          "path": "artist_workshop/environment.hdr",
+          "url": "https://dl.polyhaven.org/file/ph-assets/HDRIs/hdr/1k/artist_workshop_1k.hdr",
+          "bytes": 1719663,
+          "sha256": "f6da9025acadb1149c973fe2bef53d55f4e7144285a87ec1a357520fbcad4767"
+        }
+      ]
+    },
+    {
+      "id": "GlamVelvetSofa",
+      "name": "Glam Velvet Sofa",
+      "authors": {
+        "Eric Chadwick": "Everything",
+        "Wayfair, LLC": "Copyright 2021"
+      },
+      "source": "https://github.com/KhronosGroup/glTF-Sample-Assets/tree/main/Models/GlamVelvetSofa",
+      "license": "CC-BY-4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "modifications": "Uniform scale; warm cream upholstery finish; embedded presentation light removed at runtime.",
+      "files": [
+        {
+          "path": "GlamVelvetSofa/model.glb",
+          "url": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/main/Models/GlamVelvetSofa/glTF-Binary/GlamVelvetSofa.glb",
+          "bytes": 3149844,
+          "sha256": "67202c74a1a33377771f162dc7fad612a6c9bd51ee15124c488e9851d9ac5266"
+        },
+        {
+          "path": "GlamVelvetSofa/LICENSE.md",
+          "url": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/main/Models/GlamVelvetSofa/LICENSE.md",
+          "bytes": 782,
+          "sha256": "b9a0328334d3597cf438846bd14eac5cf07a70cc93746cd8b8b569806d1b8c7f"
+        }
+      ]
+    }
+  ]
+}

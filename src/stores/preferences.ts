@@ -1,0 +1,6 @@
+import { create } from 'zustand'
+import { db } from '../db/database'
+type Preferences={theme:'dark'|'light';quality:'low'|'medium'|'high';snap:boolean;grid:boolean;tutorialDone:boolean;units:'m'|'cm'}
+const initial:Preferences={theme:'dark',quality:'medium',snap:true,grid:true,tutorialDone:false,units:'m'}
+export const usePreferences=create<Preferences&{ready:boolean;error:string;set:(patch:Partial<Preferences>)=>void}>((set)=>({...initial,ready:false,error:'',set:patch=>{set(patch);const {theme,quality,snap,grid,tutorialDone,units}=usePreferences.getState();void db.preferences.put({key:'settings',value:{theme,quality,snap,grid,tutorialDone,units}}).catch(()=>set({error:'Preferences could not be saved. Check browser storage.'}))}}))
+export async function loadPreferences(){try{const row=await db.preferences.get('settings');if(row&&typeof row.value==='object'&&row.value){const v=row.value as Partial<Preferences>;usePreferences.setState({theme:v.theme==='light'?'light':'dark',quality:['low','medium','high'].includes(v.quality||'')?v.quality:'medium',grid:v.grid!==false,snap:v.snap!==false,tutorialDone:v.tutorialDone===true,units:v.units==='cm'?'cm':'m'})}}catch{usePreferences.setState({error:'Browser storage is unavailable. Changes may not persist.'})}usePreferences.setState({ready:true})}

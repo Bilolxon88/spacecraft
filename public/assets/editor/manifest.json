@@ -1,0 +1,715 @@
+{
+  "acquired": "2026-10-18T14:53:20.667Z",
+  "attribution": "Powered by Poly Haven. All listed assets are CC0.",
+  "assets": [
+    {
+      "id": "side_table_01",
+      "name": "Side Table 01",
+      "kind": "model",
+      "authors": {
+        "James Ray Cock": "All"
+      },
+      "source": "https://polyhaven.com/a/side_table_01",
+      "license": "CC0-1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "sourceDimensionsMm": [
+        550.0000715255737,
+        450.00001788139343,
+        550.6622816901654
+      ],
+      "files": [
+        {
+          "path": "side_table_01/model.gltf",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/side_table_01/side_table_01_1k.gltf",
+          "bytes": 2700,
+          "sha256": "a441125a4f660a23a31601aedd9aa379c6febf2b35171c08814187b5ec5a3309"
+        },
+        {
+          "path": "side_table_01/side_table_01.bin",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/8k/side_table_01/side_table_01.bin",
+          "bytes": 117784,
+          "sha256": "b1f2a0519fc61cded1fdeac8169ac5b077836052671cd39a35cb56576c9aa11e"
+        },
+        {
+          "path": "side_table_01/textures/side_table_01_diff_1k.jpg",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/side_table_01/side_table_01_diff_1k.jpg",
+          "bytes": 183315,
+          "sha256": "e0d9f2f91bede592868f9b89d141f5e8542524b8356f1b68f0f5c6bb6447731d"
+        },
+        {
+          "path": "side_table_01/textures/side_table_01_nor_gl_1k.jpg",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/side_table_01/side_table_01_nor_gl_1k.jpg",
+          "bytes": 71744,
+          "sha256": "14850c49ae1e06cf8701eac4fed2163c2ad075978d2878fcaa079dffe1fd1195"
+        },
+        {
+          "path": "side_table_01/textures/side_table_01_arm_1k.jpg",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/side_table_01/side_table_01_arm_1k.jpg",
+          "bytes": 129725,
+          "sha256": "ebaef894800faa2e09df7001c1536055c97648428410a9de76bb191aec00c014"
+        },
+        {
+          "path": "side_table_01/thumbnail.webp",
+          "url": "https://cdn.polyhaven.com/asset_img/thumbs/side_table_01.png?width=256&height=256&format=webp&v=9269bde4",
+          "bytes": 12844,
+          "sha256": "03442b8be1ca60acf570e66ac0e504c849e40c3110acd18081ac4135d120eea6"
+        }
+      ],
+      "bounds": {
+        "min": [
+          -0.27500003576278687,
+          -0.0023564721923321486,
+          -0.22500000894069672
+        ],
+        "max": [
+          0.27500003576278687,
+          0.5483058094978333,
+          0.22500000894069672
+        ],
+        "size": [
+          0.5500000715255737,
+          0.5506622816901654,
+          0.45000001788139343
+        ],
+        "center": [
+          0,
+          0.27297466865275055,
+          0
+        ],
+        "axes": "glTF Y-up; size is X width, Y height, Z depth in metres"
+      }
+    },
+    {
+      "id": "modern_wooden_cabinet",
+      "name": "Modern Wooden Cabinet",
+      "kind": "model",
+      "authors": {
+        "Patrik Pangerl": "All"
+      },
+      "source": "https://polyhaven.com/a/modern_wooden_cabinet",
+      "license": "CC0-1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "sourceDimensionsMm": [
+        2440.0004148483276,
+        520.0000107288361,
+        680.1425069570541
+      ],
+      "files": [
+        {
+          "path": "modern_wooden_cabinet/model.gltf",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/modern_wooden_cabinet/modern_wooden_cabinet_1k.gltf",
+          "bytes": 10960,
+          "sha256": "9c0765063297018e854d11bc27da3cbab3c33904a3be2f5c15f46635df7e857f"
+        },
+        {
+          "path": "modern_wooden_cabinet/modern_wooden_cabinet.bin",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/8k/modern_wooden_cabinet/modern_wooden_cabinet.bin",
+          "bytes": 1170136,
+          "sha256": "04e664a95f52c48d0caa8c3148ab7e4ad4a0554b37a2a5c0e39dc6ed6c46cafe"
+        },
+        {
+          "path": "modern_wooden_cabinet/textures/modern_wooden_cabinet_nor_gl_1k.jpg",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/modern_wooden_cabinet/modern_wooden_cabinet_nor_gl_1k.jpg",
+          "bytes": 430053,
+          "sha256": "f08b3d0619a60e2eac19c9d9c0d7dc0e3eb75af2692d84b32ddfd12d857c15ab"
+        },
+        {
+          "path": "modern_wooden_cabinet/textures/modern_wooden_cabinet_arm_1k.jpg",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/modern_wooden_cabinet/modern_wooden_cabinet_arm_1k.jpg",
+          "bytes": 574020,
+          "sha256": "fad6df227ec6d431387b10bd244a0d087e89e6dce0b1c732df5c87f0a1def3f5"
+        },
+        {
+          "path": "modern_wooden_cabinet/textures/modern_wooden_cabinet_diff_1k.jpg",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/modern_wooden_cabinet/modern_wooden_cabinet_diff_1k.jpg",
+          "bytes": 670353,
+          "sha256": "e494b67439da73775413d6aaea369ae05a8ebd7705be8df08dbcd2ee4fd545e4"
+        },
+        {
+          "path": "modern_wooden_cabinet/thumbnail.webp",
+          "url": "https://cdn.polyhaven.com/asset_img/thumbs/modern_wooden_cabinet.png?width=256&height=256&format=webp&v=dbf3e77b",
+          "bytes": 6872,
+          "sha256": "fea181b6357f8df3cc4d455ca1cc61a8226b1645a36d275750a712f28a072f68"
+        }
+      ],
+      "bounds": {
+        "min": [
+          -1.220000147819519,
+          0.000016823410987854004,
+          -0.27000001072883606
+        ],
+        "max": [
+          1.2200002670288086,
+          0.680159330368042,
+          0.25
+        ],
+        "size": [
+          2.4400004148483276,
+          0.6801425069570541,
+          0.5200000107288361
+        ],
+        "center": [
+          5.960464477539063e-8,
+          0.3400880768895149,
+          -0.01000000536441803
+        ],
+        "axes": "glTF Y-up; size is X width, Y height, Z depth in metres"
+      }
+    },
+    {
+      "id": "drawer_cabinet",
+      "name": "Drawer Cabinet",
+      "kind": "model",
+      "authors": {
+        "Ulan Cabanilla": "All"
+      },
+      "source": "https://polyhaven.com/a/drawer_cabinet",
+      "license": "CC0-1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "sourceDimensionsMm": [
+        1141.0778760910034,
+        488.08445036411285,
+        1881.253957748413
+      ],
+      "files": [
+        {
+          "path": "drawer_cabinet/model.gltf",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/drawer_cabinet/drawer_cabinet_1k.gltf",
+          "bytes": 8031,
+          "sha256": "899581e6a041644139a138f909c6ba001684cc55b5d1702e08f01094e20d0617"
+        },
+        {
+          "path": "drawer_cabinet/textures/drawer_cabinet_arm_1k.jpg",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/drawer_cabinet/drawer_cabinet_arm_1k.jpg",
+          "bytes": 124942,
+          "sha256": "8f8eefaaadcee247204c5658c2f4d9cac598222336918b01eb48e4190317788c"
+        },
+        {
+          "path": "drawer_cabinet/textures/drawer_cabinet_nor_gl_1k.jpg",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/drawer_cabinet/drawer_cabinet_nor_gl_1k.jpg",
+          "bytes": 61593,
+          "sha256": "26d0904ad341353e095ef619d157a5f416be014500475976f1144827cc849faa"
+        },
+        {
+          "path": "drawer_cabinet/textures/drawer_cabinet_diff_1k.jpg",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/drawer_cabinet/drawer_cabinet_diff_1k.jpg",
+          "bytes": 150011,
+          "sha256": "0fe270409b54a5609662dda14afaa94af4bd3267dcd83dd824e05fa880d96efb"
+        },
+        {
+          "path": "drawer_cabinet/drawer_cabinet.bin",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/4k/drawer_cabinet/drawer_cabinet.bin",
+          "bytes": 798852,
+          "sha256": "3460b9fe00ffbe779b7f7f2de3b159c214cfec275c06194add0eebd951ee14e9"
+        },
+        {
+          "path": "drawer_cabinet/thumbnail.webp",
+          "url": "https://cdn.polyhaven.com/asset_img/thumbs/drawer_cabinet.png?width=256&height=256&format=webp&v=7f8d82f5",
+          "bytes": 12526,
+          "sha256": "e5379a1f8707a37e8969848016c822fa8e569637b6dd7a72e4836ee92383fcf7"
+        }
+      ],
+      "bounds": {
+        "min": [
+          -0.5705390572547913,
+          0,
+          -0.24765323102474213
+        ],
+        "max": [
+          0.5705388188362122,
+          1.881253957748413,
+          0.24043147265911102
+        ],
+        "size": [
+          1.1410778760910034,
+          1.881253957748413,
+          0.48808470368385315
+        ],
+        "center": [
+          -1.1920928955078125e-7,
+          0.9406269788742065,
+          -0.0036108791828155518
+        ],
+        "axes": "glTF Y-up; size is X width, Y height, Z depth in metres"
+      }
+    },
+    {
+      "id": "dining_chair_02",
+      "name": "Dining Chair 02",
+      "kind": "model",
+      "authors": {
+        "James Ray Cock": "All"
+      },
+      "source": "https://polyhaven.com/a/dining_chair_02",
+      "license": "CC0-1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "sourceDimensionsMm": [
+        433.5707724094391,
+        576.4201134443283,
+        973.3776897192001
+      ],
+      "files": [
+        {
+          "path": "dining_chair_02/model.gltf",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/dining_chair_02/dining_chair_02_1k.gltf",
+          "bytes": 2723,
+          "sha256": "88352a44a17319846f61fe03ce75c79fb1849aa508b6a262366c149c1bbd06b8"
+        },
+        {
+          "path": "dining_chair_02/dining_chair_02.bin",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/8k/dining_chair_02/dining_chair_02.bin",
+          "bytes": 544592,
+          "sha256": "c7f1ef858f73815176d2ab304472a69ccf6097e971e5258eb924a75f841d4af5"
+        },
+        {
+          "path": "dining_chair_02/textures/dining_chair_02_nor_gl_1k.jpg",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/dining_chair_02/dining_chair_02_nor_gl_1k.jpg",
+          "bytes": 119612,
+          "sha256": "348703512ca1215f8389e9108419c2d1a46537663db25f423c3ef900d20cfe61"
+        },
+        {
+          "path": "dining_chair_02/textures/dining_chair_02_diff_1k.jpg",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/dining_chair_02/dining_chair_02_diff_1k.jpg",
+          "bytes": 91518,
+          "sha256": "343990f764790da1149485a422dee2bc6797945a6af06a37d02d7a7de041acf5"
+        },
+        {
+          "path": "dining_chair_02/textures/dining_chair_02_arm_1k.jpg",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/dining_chair_02/dining_chair_02_arm_1k.jpg",
+          "bytes": 162630,
+          "sha256": "0a81c0c886baa1e65d94fb6fb90ab4751bee319888ecf1c428ae62042d8a5b15"
+        },
+        {
+          "path": "dining_chair_02/thumbnail.webp",
+          "url": "https://cdn.polyhaven.com/asset_img/thumbs/dining_chair_02.png?width=256&height=256&format=webp&v=efb5662a",
+          "bytes": 5842,
+          "sha256": "1833354e1ee1cf252eae246a214def97609171bc68c9b3b606f4d7fa04948fed"
+        }
+      ],
+      "bounds": {
+        "min": [
+          -0.21678538620471954,
+          0.0012850910425186157,
+          -0.33102381229400635
+        ],
+        "max": [
+          0.21678538620471954,
+          0.9746627807617188,
+          0.24539630115032196
+        ],
+        "size": [
+          0.4335707724094391,
+          0.9733776897192001,
+          0.5764201134443283
+        ],
+        "center": [
+          0,
+          0.4879739359021187,
+          -0.042813755571842194
+        ],
+        "axes": "glTF Y-up; size is X width, Y height, Z depth in metres"
+      }
+    },
+    {
+      "id": "metal_office_desk",
+      "name": "Metal Office Desk",
+      "kind": "model",
+      "authors": {
+        "Ulan Cabanilla": "All"
+      },
+      "source": "https://polyhaven.com/a/metal_office_desk",
+      "license": "CC0-1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "sourceDimensionsMm": [
+        2000.0003576278687,
+        947.2135305404663,
+        787.5000089406967
+      ],
+      "files": [
+        {
+          "path": "metal_office_desk/model.gltf",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/metal_office_desk/metal_office_desk_1k.gltf",
+          "bytes": 13510,
+          "sha256": "f07032a5ee89aacceebf10fd9fa192c22775ae81861cfb0bdb1594497179373c"
+        },
+        {
+          "path": "metal_office_desk/textures/metal_office_desk_nor_gl_1k.jpg",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/metal_office_desk/metal_office_desk_nor_gl_1k.jpg",
+          "bytes": 170875,
+          "sha256": "f57eb004937e46392151b803e0cb1d88983958d01ad11d93df78a82cfcc6c407"
+        },
+        {
+          "path": "metal_office_desk/textures/metal_office_desk_diff_1k.jpg",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/metal_office_desk/metal_office_desk_diff_1k.jpg",
+          "bytes": 470831,
+          "sha256": "1f02e3e77e8f82a3600664c991bd45c1c187452d61e9ede4336c6f90f7fa3139"
+        },
+        {
+          "path": "metal_office_desk/textures/metal_office_desk_arm_1k.jpg",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/metal_office_desk/metal_office_desk_arm_1k.jpg",
+          "bytes": 721614,
+          "sha256": "752916dd9bf8a163dc7e0d3673900791ee6d558bbe23894263ac92b42387f51b"
+        },
+        {
+          "path": "metal_office_desk/metal_office_desk.bin",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/8k/metal_office_desk/metal_office_desk.bin",
+          "bytes": 229700,
+          "sha256": "65b558f41a75ad4822e31cc2a97eb34ed359199279a6bfbd650deb27cef78767"
+        },
+        {
+          "path": "metal_office_desk/thumbnail.webp",
+          "url": "https://cdn.polyhaven.com/asset_img/thumbs/metal_office_desk.png?width=256&height=256&format=webp&v=fd98b58d",
+          "bytes": 5596,
+          "sha256": "a66f7a222ef2d67c6ac84b84d666810336fa8782690bbf34bb8fc7e983679d42"
+        }
+      ],
+      "bounds": {
+        "min": [
+          -1.0000008344650269,
+          0,
+          -0.4691101610660553
+        ],
+        "max": [
+          0.9999995231628418,
+          0.7875000238418579,
+          0.478103369474411
+        ],
+        "size": [
+          2.0000003576278687,
+          0.7875000238418579,
+          0.9472135305404663
+        ],
+        "center": [
+          -6.556510925292969e-7,
+          0.39375001192092896,
+          0.0044966042041778564
+        ],
+        "axes": "glTF Y-up; size is X width, Y height, Z depth in metres"
+      }
+    },
+    {
+      "id": "coffee_table_round_01",
+      "name": "Coffee Table Round 01",
+      "kind": "model",
+      "authors": {
+        "Ulan Cabanilla": "All"
+      },
+      "source": "https://polyhaven.com/a/coffee_table_round_01",
+      "license": "CC0-1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "sourceDimensionsMm": [
+        1301.3009428977966,
+        1301.3015985488892,
+        491.0094439983368
+      ],
+      "files": [
+        {
+          "path": "coffee_table_round_01/model.gltf",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/coffee_table_round_01/coffee_table_round_01_1k.gltf",
+          "bytes": 2776,
+          "sha256": "58fe785584f8999f760e590b04ce74f83962d42c9440ab9415910f63a31165dc"
+        },
+        {
+          "path": "coffee_table_round_01/textures/coffee_table_round_01_diff_1k.jpg",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/coffee_table_round_01/coffee_table_round_01_diff_1k.jpg",
+          "bytes": 447037,
+          "sha256": "422b4a24a4459e1fd6d121aae4f1097dd3e467c7a8036bb1d003f955302f1d28"
+        },
+        {
+          "path": "coffee_table_round_01/textures/coffee_table_round_01_arm_1k.jpg",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/coffee_table_round_01/coffee_table_round_01_arm_1k.jpg",
+          "bytes": 721708,
+          "sha256": "7221b03af475555092abd650798facbb945bf4acf02e48f8697f012d8515bf52"
+        },
+        {
+          "path": "coffee_table_round_01/coffee_table_round_01.bin",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/8k/coffee_table_round_01/coffee_table_round_01.bin",
+          "bytes": 131112,
+          "sha256": "9605a0c156bff4ec87e8717a79978d85d4e750d21b3193a3d08bed16e8666035"
+        },
+        {
+          "path": "coffee_table_round_01/textures/coffee_table_round_01_nor_gl_1k.jpg",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/coffee_table_round_01/coffee_table_round_01_nor_gl_1k.jpg",
+          "bytes": 260520,
+          "sha256": "a5912db1918b1ec925efb19179675cafc8832b082f80b2ea35c3a58b45e1aec4"
+        },
+        {
+          "path": "coffee_table_round_01/thumbnail.webp",
+          "url": "https://cdn.polyhaven.com/asset_img/thumbs/coffee_table_round_01.png?width=256&height=256&format=webp&v=637507a6",
+          "bytes": 9120,
+          "sha256": "b4eb1d874065f72ee4799e58eb9c0fff4a6bf3ee1807e6683481924178f2d951"
+        }
+      ],
+      "bounds": {
+        "min": [
+          -0.6506505608558655,
+          -0.0013774335384368896,
+          -0.6506507992744446
+        ],
+        "max": [
+          0.6506503820419312,
+          0.4896320104598999,
+          0.6506507992744446
+        ],
+        "size": [
+          1.3013009428977966,
+          0.4910094439983368,
+          1.3013015985488892
+        ],
+        "center": [
+          -8.940696716308594e-8,
+          0.2441272884607315,
+          0
+        ],
+        "axes": "glTF Y-up; size is X width, Y height, Z depth in metres"
+      }
+    },
+    {
+      "id": "mid_century_lounge_chair",
+      "name": "Mid Century Lounge Chair",
+      "kind": "model",
+      "authors": {
+        "Kuutti Siitonen": "All"
+      },
+      "source": "https://polyhaven.com/a/mid_century_lounge_chair",
+      "license": "CC0-1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "sourceDimensionsMm": [
+        1008.6143612861633,
+        1190.310776233673,
+        1169.0847246776136
+      ],
+      "files": [
+        {
+          "path": "mid_century_lounge_chair/model.gltf",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/mid_century_lounge_chair/mid_century_lounge_chair_1k.gltf",
+          "bytes": 2884,
+          "sha256": "47c5769ee4dfa350e2506a6a76d8ef58a1e1060344acda35c503ddff46645d26"
+        },
+        {
+          "path": "mid_century_lounge_chair/textures/mid_century_lounge_chair_nor_gl_1k.jpg",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/mid_century_lounge_chair/mid_century_lounge_chair_nor_gl_1k.jpg",
+          "bytes": 648960,
+          "sha256": "4bb4b325e4478f5d9063e4e061cf34bc6ccc3067abda608c1548c4a367f50397"
+        },
+        {
+          "path": "mid_century_lounge_chair/textures/mid_century_lounge_chair_diff_1k.jpg",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/mid_century_lounge_chair/mid_century_lounge_chair_diff_1k.jpg",
+          "bytes": 627298,
+          "sha256": "ae1f80e964426b49f70b402403c444a655bdaa363d8d43fee5b57fcb3b492c54"
+        },
+        {
+          "path": "mid_century_lounge_chair/textures/mid_century_lounge_chair_arm_1k.jpg",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/mid_century_lounge_chair/mid_century_lounge_chair_arm_1k.jpg",
+          "bytes": 636493,
+          "sha256": "9fa5fa4af5306576a3a27886767feec5431f41d94df9119f2ccced8f0b024f1a"
+        },
+        {
+          "path": "mid_century_lounge_chair/mid_century_lounge_chair.bin",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/8k/mid_century_lounge_chair/mid_century_lounge_chair.bin",
+          "bytes": 171384,
+          "sha256": "26346cdc548ad74b1b6db5734c8c231c3c740656b012de2cc3bbc2b3b975200c"
+        },
+        {
+          "path": "mid_century_lounge_chair/thumbnail.webp",
+          "url": "https://cdn.polyhaven.com/asset_img/thumbs/mid_century_lounge_chair.png?width=256&height=256&format=webp&v=4b58f3c4",
+          "bytes": 12556,
+          "sha256": "d12c44514c2aa7132122d21f99ae9871abaacc25b7a4c77d40134ea8fcbc7b4c"
+        }
+      ],
+      "bounds": {
+        "min": [
+          -0.5043071508407593,
+          -5.651812884366336e-8,
+          -0.6613625288009644
+        ],
+        "max": [
+          0.504307210445404,
+          1.1690846681594849,
+          0.5289482474327087
+        ],
+        "size": [
+          1.0086143612861633,
+          1.1690847246776137,
+          1.190310776233673
+        ],
+        "center": [
+          2.9802322387695312e-8,
+          0.584542305820678,
+          -0.06620714068412781
+        ],
+        "axes": "glTF Y-up; size is X width, Y height, Z depth in metres"
+      }
+    },
+    {
+      "id": "marble_01",
+      "name": "Marble 01",
+      "kind": "texture",
+      "authors": {
+        "Rob Tuytel": "All"
+      },
+      "source": "https://polyhaven.com/a/marble_01",
+      "license": "CC0-1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "sourceDimensionsMm": [
+        1500,
+        1500
+      ],
+      "files": [
+        {
+          "path": "marble_01/color.jpg",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/marble_01/marble_01_diff_1k.jpg",
+          "bytes": 305029,
+          "sha256": "b10dabea976d68baa976a0d4e8dac58789df8d26a1b50697f320106f1b00a229"
+        },
+        {
+          "path": "marble_01/normal.jpg",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/marble_01/marble_01_nor_gl_1k.jpg",
+          "bytes": 110230,
+          "sha256": "77c2a9b549a6a408659f8197be91945aeb0abc33e697f1dd2ce24ee8dc7c2bc0"
+        },
+        {
+          "path": "marble_01/roughness.jpg",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/marble_01/marble_01_rough_1k.jpg",
+          "bytes": 91848,
+          "sha256": "a3e9f373d22aebc449af73f6a18c9817e2146f17e567a083609ba8fbb62a72f5"
+        },
+        {
+          "path": "marble_01/ao.jpg",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/marble_01/marble_01_ao_1k.jpg",
+          "bytes": 196544,
+          "sha256": "293647199a12dc369d19f8a2ca1f6ccdf305cb2bedc5f5e014c7bf8d0380d474"
+        },
+        {
+          "path": "marble_01/thumbnail.webp",
+          "url": "https://cdn.polyhaven.com/asset_img/thumbs/marble_01.png?width=256&height=256&format=webp&v=57534022",
+          "bytes": 6760,
+          "sha256": "7c3500d51905038deb11f7dbb86c10456b7e0c85a0ff24e02f4e01bfd7a51d74"
+        }
+      ]
+    },
+    {
+      "id": "concrete_wall_009",
+      "name": "Concrete Wall 009",
+      "kind": "texture",
+      "authors": {
+        "Charlotte Baglioni": "All"
+      },
+      "source": "https://polyhaven.com/a/concrete_wall_009",
+      "license": "CC0-1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "sourceDimensionsMm": [
+        1804.9999475479126,
+        1804.9999475479126
+      ],
+      "files": [
+        {
+          "path": "concrete_wall_009/color.jpg",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/concrete_wall_009/concrete_wall_009_diff_1k.jpg",
+          "bytes": 626688,
+          "sha256": "59811fad71658323462287b072eef22ebb857c13bba63eeff34842a4d4dba8fe"
+        },
+        {
+          "path": "concrete_wall_009/normal.jpg",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/concrete_wall_009/concrete_wall_009_nor_gl_1k.jpg",
+          "bytes": 518536,
+          "sha256": "0caa2f8681b5c81de775d32deb6ad0644e9f943015faf42e1e7cccfbd6c5c04f"
+        },
+        {
+          "path": "concrete_wall_009/roughness.jpg",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/concrete_wall_009/concrete_wall_009_rough_1k.jpg",
+          "bytes": 766943,
+          "sha256": "109424f91c6c385b7c2b5791e2d9f8c9d082d9d5665dae42c35df96410ea05d1"
+        },
+        {
+          "path": "concrete_wall_009/ao.jpg",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/concrete_wall_009/concrete_wall_009_ao_1k.jpg",
+          "bytes": 410540,
+          "sha256": "4a17193181ba8131bbe5f122e0eef3f21ab4de9a4a47dd7f51e10537b8b6f96f"
+        },
+        {
+          "path": "concrete_wall_009/thumbnail.webp",
+          "url": "https://cdn.polyhaven.com/asset_img/thumbs/concrete_wall_009.png?width=256&height=256&format=webp&v=29bf7f55",
+          "bytes": 7624,
+          "sha256": "83a36b7d8ccff5188672dcefb271555210b82d9cda7bd9f84b71e8f7e7a11aaa"
+        }
+      ]
+    },
+    {
+      "id": "modern_arm_chair_01",
+      "name": "Modern Arm Chair 01",
+      "kind": "thumbnail",
+      "authors": {
+        "Vibrant Nordic": "All"
+      },
+      "source": "https://polyhaven.com/a/modern_arm_chair_01",
+      "license": "CC0-1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "files": [
+        {
+          "path": "thumbnails/modern_arm_chair_01.webp",
+          "url": "https://cdn.polyhaven.com/asset_img/thumbs/modern_arm_chair_01.png?width=256&height=256&format=webp&v=f0268ac6",
+          "bytes": 10576,
+          "sha256": "fcd63b3e7fcb53daac16e5638f872bc57b81678a2e5932356e9b6147aa8257bf"
+        }
+      ]
+    },
+    {
+      "id": "modern_coffee_table_01",
+      "name": "Modern Coffee Table 01",
+      "kind": "thumbnail",
+      "authors": {
+        "Amin": "All"
+      },
+      "source": "https://polyhaven.com/a/modern_coffee_table_01",
+      "license": "CC0-1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "files": [
+        {
+          "path": "thumbnails/modern_coffee_table_01.webp",
+          "url": "https://cdn.polyhaven.com/asset_img/thumbs/modern_coffee_table_01.png?width=256&height=256&format=webp&v=29e2a5b6",
+          "bytes": 6612,
+          "sha256": "c81a41965bec3d7b08f743dc7b2391f441d5e5891fdf2f4b596f82d3f4d994d8"
+        }
+      ]
+    },
+    {
+      "id": "potted_plant_02",
+      "name": "Potted Plant 02",
+      "kind": "thumbnail",
+      "authors": {
+        "Rico Cilliers": "All"
+      },
+      "source": "https://polyhaven.com/a/potted_plant_02",
+      "license": "CC0-1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "files": [
+        {
+          "path": "thumbnails/potted_plant_02.webp",
+          "url": "https://cdn.polyhaven.com/asset_img/thumbs/potted_plant_02.png?width=256&height=256&format=webp&v=24e1bc4c",
+          "bytes": 18636,
+          "sha256": "e06549f05ccbefce178927049c35cd7787174f85ff70c57f8f9fcbe43fee2f57"
+        }
+      ]
+    },
+    {
+      "id": "ceramic_vase_01",
+      "name": "Ceramic Vase 01",
+      "kind": "thumbnail",
+      "authors": {
+        "James Ray Cock": "All"
+      },
+      "source": "https://polyhaven.com/a/ceramic_vase_01",
+      "license": "CC0-1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "files": [
+        {
+          "path": "thumbnails/ceramic_vase_01.webp",
+          "url": "https://cdn.polyhaven.com/asset_img/thumbs/ceramic_vase_01.png?width=256&height=256&format=webp&v=ff07fd46",
+          "bytes": 4256,
+          "sha256": "cf9055fbea3a5e60ceb57720d520280a50fd9ff7ec2be8130f59fe16830b9e7c"
+        }
+      ]
+    }
+  ]
+}

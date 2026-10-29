@@ -1,0 +1,36 @@
+/* Native scrolling is enabled only while the landing page is mounted. */
+html.landing-smooth-scroll { scroll-behavior: smooth; }
+.landing { overflow-x: clip; }
+.landing section[id] { scroll-margin-top: 35px; }
+.landing .heading-mask { display: block; overflow: clip; padding-bottom: .1em; margin-bottom: -.1em; }
+.landing .heading-line { display: inline-block; }
+.landing .hero-visual { min-width: 0; }
+.landing .hero-copy > div > p { font-size: 14px; line-height: 1.85; }
+.landing .landing-templates > div { min-width: 0; }
+.landing .landing-templates .template-card { display: block; }
+.landing .landing-templates .template-card > div { background: #d3d6cc; }
+.landing .landing-templates > div:nth-child(2) .template-card > div { background: #dbd3c7; }
+.landing .landing-templates > div:nth-child(3) .template-card > div { background: #c4cfc8; }
+@media (hover: hover) and (prefers-reduced-motion: no-preference) {
+  .landing .button, .landing .template-card, .landing .text-link, .landing .nav-links a {
+    transition: transform .28s cubic-bezier(.22,.68,0,1), background .2s, color .2s, box-shadow .28s;
+  }
+  .landing .button:hover { transform: translateY(-2px); box-shadow: 0 5px 16px #0002; }
+  .landing .button:active { transform: translateY(0); box-shadow: none; }
+  .landing .template-card:hover { transform: translateY(-4px); }
+  .landing .template-card .project-art { transition: transform .5s cubic-bezier(.22,.68,0,1); }
+  .landing .text-link svg, .landing .button svg { transition: transform .25s cubic-bezier(.22,.68,0,1); }
+  .landing .text-link:hover svg, .landing .button:hover svg { transform: translate(2px,-1px); }
+  .landing .nav-links a { position: relative; }
+  .landing .nav-links a:after { content: ''; position: absolute; left: 0; right: 0; bottom: -6px; height: 1px; background: var(--accent); transform: scaleX(0); transform-origin: left; transition: transform .25s; }
+  .landing .nav-links a:hover:after { transform: scaleX(1); }
+}
+@media (max-width: 960px) { .landing .hero-copy > div > p { font-size: 12px; } }
+@media (max-width: 700px) {
+  .landing .hero-copy > div > p { font-size: 13px; }
+  .landing .landing-templates .template-card > div { max-height: 260px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  html.landing-smooth-scroll { scroll-behavior: auto; }
+  .landing .hero-visual, .landing .comparison-art, .landing .heading-line { transform: none !important; }
+}

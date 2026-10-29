@@ -1,0 +1,85 @@
+/* Reference-led art direction, shared by the studio and supporting pages. */
+:root { --bg:#101211; --surface:#181b1a; --panel:#202423; --elevated:#2a2e2b; --border:#333934; --text:#f3eee4; --muted:#a8ada5; --accent:#d8c5a6; --accent-solid:#e9ddc9; --accent-ink:#24251f; --accent-soft:#d8c5a615; --shadow:0 20px 60px #0004; }
+:root[data-theme="light"] { --bg:#f3f0e9; --surface:#fcfaf5; --panel:#eae7df; --elevated:#e3dfd5; --border:#d5d1c6; --text:#282d27; --muted:#61675c; --accent:#806945; --accent-solid:#343e32; --accent-ink:#faf5ea; --accent-soft:#78674812; --shadow:0 16px 40px #29251c0a; }
+body { font-family:"Segoe UI",Arial,sans-serif; }
+.button { border-radius:7px; font-weight:500; }
+.button.primary { box-shadow:0 2px 8px #0001; }
+.logo-mark, .logo-dot { color:var(--accent); }
+.page-content > h1, .dashboard-heading h1, .new-project h1, .landing h2, .final-cta h2 { font-family:Georgia,"Times New Roman",serif; font-weight:400; letter-spacing:-.035em; }
+.project-card,.template-card,.settings-card,.new-project-form { border-radius:12px; }
+.app-sidebar { background:var(--surface); }
+.sidebar-note { background:linear-gradient(140deg,var(--panel),transparent); border:1px solid var(--border); border-radius:12px; }
+.eyebrow { color:var(--accent); letter-spacing:1.6px; }
+.editor-shell { --shadow:0 10px 32px #0003; }
+.editor-header { height:62px; padding:0 16px; background:var(--surface); }
+.editor-logo { color:var(--text); }
+.editor-library { width:282px; min-width:238px; background:var(--surface); }
+.editor-inspector { width:278px; background:var(--surface); }
+.editor-project > input { font-size:13px; }
+.panel-tabs { padding:0 18px; gap:24px; height:52px; }
+.panel-tabs button { font-size:12px; }
+.panel-tabs button.active:after { height:1px; background:var(--accent); }
+.library-controls { padding:16px 14px 10px; gap:8px; }
+.library-controls .search { border-radius:8px; }
+.library-controls input,.library-controls select { font-size:11px; }
+.collection-filters { display:flex; gap:5px; padding:0 14px 12px; overflow:auto; flex-shrink:0; }
+.collection-filters button { border:1px solid var(--border); padding:6px 8px; border-radius:6px; font-size:10px; color:var(--muted); }
+.collection-filters button[aria-pressed="true"] { color:var(--accent-ink); background:var(--accent-solid); border-color:var(--accent-solid); }
+.furniture-grid { gap:18px 11px; padding:0 14px 20px; }
+.furniture-image { border:1px solid transparent; border-radius:9px; background:radial-gradient(ellipse at 50% 55%,var(--elevated),var(--panel)); aspect-ratio:1.2; }
+.furniture-image img { width:100%; height:100%; object-fit:contain; padding:6px; transition:transform .2s; }
+.furniture-card:hover img { transform:scale(1.05); }
+.furniture-card strong { font-size:11px; font-weight:500; margin-top:8px; }
+.furniture-card > span { font-size:10px; }
+.model-kind { display:block; font-size:8px; color:var(--muted); margin-top:3px; letter-spacing:.1px; }
+.library-footer { padding:12px 14px; font-size:10px; }
+.inspector-heading { padding:22px 18px 8px; }
+.inspector-heading h3 { font-size:18px; font-weight:500; }
+.inspector-heading p { font-size:10px; }
+.inspector-section { padding:18px; border-bottom:1px solid var(--border); }
+.inspector-section h4 { font-size:11px; font-weight:500; }
+.inspector-section input,.inspector-section select { border-radius:6px; background:var(--panel); min-height:34px; font-size:11px; }
+.finish-palette { display:grid; grid-template-columns:repeat(4,1fr); gap:12px; margin:16px 0 22px; }
+.finish-palette button { width:38px; height:38px; justify-self:center; border-radius:50%; border:3px solid var(--surface); box-shadow:0 2px 5px #0007,inset -5px -5px 12px #0004,inset 6px 5px 10px #fff3; outline:1px solid var(--border); }
+.finish-palette button[aria-pressed="true"] { outline:2px solid var(--accent); outline-offset:2px; }
+.finish-palette button:nth-child(1),.finish-palette button:nth-child(2) { background-image:url('/assets/showcase/wood_floor/color.jpg'); background-size:180px; }
+.viewport { background:#c0b9aa; }
+.viewport-toolbar { background:color-mix(in srgb,var(--surface) 93%,transparent); border:1px solid var(--border); border-radius:8px; box-shadow:0 5px 20px #0002; }
+.viewport-mode-label { color:#535d4c; letter-spacing:1.8px; }
+.editor-status { background:var(--surface); font-size:9px; }
+.landing { max-width:none; }
+.landing .landing-nav { position:absolute; top:0; left:0; right:0; height:88px; border:0; z-index:8; color:#f1e9dc; background:linear-gradient(#10120fde,transparent); }
+.landing .landing-nav .nav-links { color:#ddd9ce; font-size:12px; }
+.landing .landing-nav .button { border-radius:30px; color:#23281f; background:#f1e7d7; border-color:#f1e7d7; padding:11px 19px; }
+.landing .landing-nav .icon-button { color:#f1e7d7; }
+.landing .room-journey .journey-stage { clip-path:none!important; }
+.journey-shade { position:absolute; inset:0; background:linear-gradient(90deg,#10120ff5 0%,#10120fd9 24%,#10120f66 49%,transparent 72%),linear-gradient(0deg,#10120f8c,transparent 22%); pointer-events:none; }
+.landing .room-journey .journey-copy { left:6%; width:39%; color:#f4ecdf; }
+.landing .room-journey .journey-copy h1 { font-family:Georgia,"Times New Roman",serif; font-size:clamp(52px,5.6vw,88px); font-weight:400; line-height:1.02; letter-spacing:-3.5px; margin:25px 0; }
+.landing .journey-copy h1 em { color:#ded2bc; }
+.landing .journey-copy p { color:#d7d7cd; font-size:15px; line-height:1.7; }
+.landing .hero-kicker { color:#ccc4b2; font-size:9px; }
+.landing .hero-actions .button.primary { background:#f1e6d4; color:#25271f; border-color:#f1e6d4; border-radius:30px; min-height:48px; padding:14px 24px; }
+.landing .hero-actions .text-link { color:#e5dfd1; }
+.landing .hero-perks { color:#c7c7ba; border-top:1px solid #ffffff20; padding-top:22px; margin-top:35px; }
+.landing .journey-overview { color:#e1ddcb; top:auto; bottom:88px; right:5%; font-size:8px; }
+.landing .journey-credits { background:#20241dc9; color:#d1c9b7; }
+.landing .journey-scroll-hint,.landing .journey-skip { background:#f1e8d9e8; border-color:#eee4d277; color:#343b2f; }
+.landing-strip { background:var(--surface); border-top:1px solid var(--border); border-bottom:1px solid var(--border); }
+.landing .landing-section { max-width:1500px; margin:auto; padding-top:100px; padding-bottom:100px; }
+.landing .section-heading h2,.landing .how-section h2,.landing .comparison h2,.landing .faq h2 { font-size:clamp(36px,4vw,56px); line-height:1.08; }
+.landing .feature-grid { gap:0; border:1px solid var(--border); border-radius:12px; overflow:hidden; }
+.landing .feature-grid article { background:var(--surface); border:0; border-right:1px solid var(--border); border-radius:0; padding:32px; }
+.landing .feature-grid article:last-child { border-right:0; }
+.landing .feature-grid h3 { font-family:Georgia,serif; font-size:25px; font-weight:400; margin-top:30px; }
+.landing .comparison-art { border:1px solid var(--border); border-radius:12px; background:#272b25; overflow:hidden; }
+.rendered-room-preview { width:100%; height:100%; object-fit:cover; display:block; }
+.landing .template-card > div { aspect-ratio:1.3; overflow:hidden; border-radius:10px 10px 0 0; }
+.landing .template-card { background:var(--surface); border:1px solid var(--border); padding-bottom:17px; }
+.landing .template-card h3,.landing .template-card p { padding:0 17px; }
+.landing .final-cta { background:radial-gradient(ellipse at 50% 100%,#4a493a50,transparent 65%),var(--surface); border-top:1px solid var(--border); }
+.landing .final-cta h2 { font-size:clamp(42px,5vw,70px); }
+.landing .journey-reduced .journey-stage,.landing .journey-failed .journey-stage { inset:0; border-radius:0; }
+@media(min-width:1600px) { .editor-library{width:310px}.editor-inspector{width:300px}.furniture-image{aspect-ratio:1.25} }
+@media(max-width:1100px) { .editor-library{width:230px;min-width:210px}.editor-inspector{width:240px}.collection-filters{gap:3px}.collection-filters button{padding:5px;font-size:9px}.landing .room-journey .journey-copy{width:45%}.landing .hero-perks{gap:10px;font-size:9px}.landing .journey-copy p{font-size:13px} }
+@media(max-width:700px) { .landing .landing-nav{height:68px;padding:0 6%}.landing .landing-nav .button{font-size:9px;padding:9px 12px}.landing .room-journey .journey-copy{left:0;top:65px;width:100%;padding:35px 6%;background:linear-gradient(#10120fe8,transparent)}.landing .room-journey .journey-copy h1{font-size:clamp(42px,11vw,64px);letter-spacing:-2px}.landing .journey-copy p{font-size:12px}.journey-shade{background:linear-gradient(#10120fcc,transparent 75%)}.landing .hero-perks{margin-top:22px;padding-top:14px;font-size:8px}.landing .landing-section{padding-top:64px;padding-bottom:64px}.landing .feature-grid{display:block}.landing .feature-grid article{border-right:0;border-bottom:1px solid var(--border)}.landing .journey-reduced .journey-stage,.landing .journey-failed .journey-stage{inset:360px 0 0}.landing .journey-loading{left:50%;top:65%}.editor-library{width:210px;min-width:190px}.editor-inspector{width:220px}.finish-palette{gap:8px}.finish-palette button{width:32px;height:32px} }

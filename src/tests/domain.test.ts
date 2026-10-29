@@ -1,0 +1,30 @@
+import { beforeEach,describe,expect,it } from 'vitest'
+import { createProject,templates } from '../features/templates/templates'
+import { makeObject,projectSchema,roomSchema } from '../types/project'
+import { canWalk,constrainObject,displayDistance,extents,findWalkStart,overlaps,snap,walkStep } from '../features/editor/geometry'
+import { useEditor } from '../features/editor/store'
+import { catalog } from '../features/furniture/catalog'
+import { importProject } from '../features/export/files'
+const file=(data:unknown)=>({size:100,text:async()=>JSON.stringify(data)}) as File
+describe('project validation and serialization',()=>{
+ it('validates all six templates and every furniture definition',()=>{expect(templates).toHaveLength(6);expect(catalog.length).toBeGreaterThanOrEqual(30);expect(new Set(catalog.map(i=>i.id)).size).toBe(catalog.length);for(const t of templates)expect(projectSchema.safeParse(createProject(t.id)).success).toBe(true);for(const i of catalog){expect(i.parts.length).toBeGreaterThan(0);expect(projectSchema.safeParse({...createProject('empty'),objects:[makeObject(i.id)]}).success).toBe(true)}})
+ it('rejects invalid dimensions, nonfinite coordinates, unknown assets and duplicate IDs',()=>{const p=createProject();expect(roomSchema.safeParse({...p.room,width:1}).success).toBe(false);expect(roomSchema.safeParse({...p.room,height:6}).success).toBe(false);p.objects[0].position[0]=NaN;expect(projectSchema.safeParse(p).success).toBe(false);p.objects[0]=makeObject('bed');p.objects[0].catalogId='remote-script';expect(projectSchema.safeParse(p).success).toBe(false);p.objects=[makeObject('bed')];p.objects.push(p.objects[0]);expect(projectSchema.safeParse(p).success).toBe(false)})
+ it('round-trips all transforms, materials and metadata without sharing project identity',async()=>{const p=createProject('office');const restored=await importProject(file(p));expect(restored.id).not.toBe(p.id);expect(restored.objects).toEqual(p.objects);expect(restored.room).toEqual(p.room)})
+ it('rejects unsupported schemas and objects outside the room',async()=>{await expect(importProject(file({...createProject(),schemaVersion:2}))).rejects.toThrow('Invalid project');const p=createProject();p.objects[0].position[0]=10;await expect(importProject(file(p))).rejects.toThrow('outside the room')})
+})
+describe('coordinates and placement',()=>{const room=createProject().room;
+ it('snaps metric values and converts display units',()=>{expect(snap(.26)).toBeCloseTo(.3);expect(snap(-.26)).toBeCloseTo(-.3);expect(displayDistance(1.25,'cm')).toBe('125 cm');expect(displayDistance(1.25,'m')).toBe('1.25 m')})
+ it('contains a rotated object and shrinks furniture larger than the room',()=>{const o=makeObject('bed');o.rotation=Math.PI/4;o.position=[9,9,-9];o.size=[12,4,12];const c=constrainObject(o,room),e=extents(c);expect(Math.abs(c.position[0])+e.x).toBeLessThanOrEqual(room.width/2+.0001);expect(Math.abs(c.position[2])+e.z).toBeLessThanOrEqual(room.length/2+.0001);expect(c.position[1]+c.size[1]).toBeLessThanOrEqual(room.height)})
+ it('reports overlap but ignores rugs and vertically separated objects',()=>{const a=makeObject('desk'),b=makeObject('monitor');expect(overlaps(a,b)).toBe(true);b.position[1]=.75;expect(overlaps(a,b)).toBe(false);expect(overlaps(a,makeObject('rug'))).toBe(false)})
+})
+describe('walkthrough collision',()=>{const room=createProject().room;
+ it('keeps camera radius inside walls',()=>{expect(canWalk(2.4,0,room,[])).toBe(false);const [x,z]=walkStep(0,0,100,100,room,[]);expect(x).toBeLessThanOrEqual(2.27);expect(z).toBeLessThanOrEqual(2.27)})
+ it('blocks rotated furniture and prevents tunneling through a narrow cabinet',()=>{const o=makeObject('wardrobe');o.rotation=Math.PI/4;expect(canWalk(0,0,room,[o])).toBe(false);o.rotation=0;const [,z]=walkStep(0,2,0,-4,room,[o]);expect(z).toBeGreaterThan(.5)})
+ it('slides along walls, ignores hidden objects, and finds a safe entry',()=>{const o=makeObject('bed');o.visible=false;expect(canWalk(0,0,room,[o])).toBe(true);const [x,z]=walkStep(2.26,0,1,1,room,[]);expect(x).toBeLessThan(2.28);expect(z).toBeCloseTo(1);const p=createProject('living');const start=findWalkStart(p.room,p.objects)!;expect(start).not.toBeNull();expect(canWalk(start[0],start[2],p.room,p.objects)).toBe(true)})
+ it('refuses a room without standing clearance',()=>{const o=makeObject('wardrobe');o.size=[5,2,5];expect(findWalkStart(room,[o])).toBeNull()})
+})
+describe('bounded history',()=>{beforeEach(()=>useEditor.getState().load(createProject('empty')));
+ it('undoes and redoes addition, transformations, recolor, rename and deletion',()=>{useEditor.getState().add('bed');const id=useEditor.getState().selected!;useEditor.getState().update(id,{name:'My bed',rotation:.5,position:[.2,0,.3]});const changed=structuredClone(useEditor.getState().project);useEditor.getState().undo();expect(useEditor.getState().project!.objects[0].name).toBe('Luna queen bed');useEditor.getState().redo();expect(useEditor.getState().project).toEqual(changed);useEditor.getState().select(id);useEditor.getState().remove();expect(useEditor.getState().project!.objects).toHaveLength(0);useEditor.getState().undo();expect(useEditor.getState().project!.objects).toHaveLength(1)})
+ it('does not record no-ops and caps history to 80 commits',()=>{useEditor.getState().add('bed');const id=useEditor.getState().selected!;const count=useEditor.getState().past.length;useEditor.getState().update(id,{name:'Luna queen bed'});expect(useEditor.getState().past).toHaveLength(count);for(let i=0;i<100;i++)useEditor.getState().update(id,{name:'Bed '+i});expect(useEditor.getState().past).toHaveLength(80)})
+ it('clears redo after a new command and prevents locked deletion',()=>{useEditor.getState().add('bed');useEditor.getState().undo();useEditor.getState().add('desk');expect(useEditor.getState().future).toHaveLength(0);const id=useEditor.getState().selected!;useEditor.getState().update(id,{locked:true});useEditor.getState().remove();expect(useEditor.getState().project!.objects).toHaveLength(1)})
+})
